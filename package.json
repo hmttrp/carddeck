@@ -16,6 +16,7 @@
     "jest": "^23.1.0"
   },
   "dependencies": {
-    "babel-preset-env": "^1.7.0"
+    "babel-preset-env": "^1.7.0",
+    "ramda": "^0.25.0"
   }
 }

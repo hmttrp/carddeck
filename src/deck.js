@@ -1,6 +1,6 @@
 import Suit from './suit'
 import Rank from './rank'
-import xprod from './utils/xprod'
+import xprod from 'ramda/src/xprod'
 import createCard from './card'
 
 const suits = Object.values(Suit)

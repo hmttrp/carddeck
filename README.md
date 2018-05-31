@@ -4,7 +4,6 @@ This is an example project to play around with library creation and maintaining.
 
 ## Next steps
 
-* [ ] Use xprod from ramda
 * [ ] Add Bundling with Rollup
 * [ ] Add Bundling with Webpack
 * [ ] Compare and decide for one

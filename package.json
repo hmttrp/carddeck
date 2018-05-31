@@ -5,18 +5,25 @@
   "main": "src/index.js",
   "scripts": {
     "test": "jest",
-    "test:watch": "npm run test -- --watch"
+    "test:watch": "npm run test -- --watch",
+    "build": "webpack"
   },
   "keywords": [],
   "author": "Hendrik Mittrop <thatsmiddi@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
     "babel-jest": "^23.0.1",
-    "jest": "^23.1.0"
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^23.1.0",
+    "uglifyjs-webpack-plugin": "^1.2.5",
+    "webpack": "^4.10.2",
+    "webpack-cli": "^2.1.4",
+    "webpack-stylish": "^0.1.8"
   },
   "dependencies": {
-    "babel-preset-env": "^1.7.0",
     "ramda": "^0.25.0"
   }
 }

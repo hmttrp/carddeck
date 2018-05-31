@@ -1,0 +1,21 @@
+{
+  "name": "card-deck",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "test:watch": "npm run test -- --watch"
+  },
+  "keywords": [],
+  "author": "Hendrik Mittrop <thatsmiddi@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-jest": "^23.0.1",
+    "jest": "^23.1.0"
+  },
+  "dependencies": {
+    "babel-preset-env": "^1.7.0"
+  }
+}

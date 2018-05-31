@@ -1,12 +1,12 @@
-import createDeck from '../deck'
+import { Deck } from 'carddeck'
 
 it('creates a deck of 52 cards', () => {
-  const { cards } = createDeck()
+  const { cards } = Deck.create()
   expect(cards).toHaveLength(52)
 })
 
 it('creates a deck containing unique cards', () => {
-  const { cards } = createDeck()
+  const { cards } = Deck.create()
 
   const appearanceCount = cards.map(
     card =>

@@ -1,4 +1,4 @@
-const xprod = (aList = [], bList = []) => {
+const xprod = (aList, bList) => {
   const res = []
 
   aList.forEach(aItem => {

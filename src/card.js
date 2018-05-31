@@ -1,6 +1,6 @@
 import Rank from './rank'
 import Suit from './suit'
-import { isOfEnum } from './validation'
+import { isOfEnum } from './utils/validation'
 
 const createCard = (suit, rank) => {
   if (!isOfEnum(Suit, suit)) {

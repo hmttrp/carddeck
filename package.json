@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest",
     "test:watch": "npm run test -- --watch",
-    "build": "rollup -c rollup.config.js"
+    "build:rollup": "rollup -c rollup.config.js"
   },
   "keywords": [],
   "author": "Hendrik Mittrop <thatsmiddi@gmail.com>",

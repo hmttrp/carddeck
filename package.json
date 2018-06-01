@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest",
     "test:watch": "npm run test -- --watch",
-    "build": "webpack"
+    "build:webpack": "webpack"
   },
   "keywords": [],
   "author": "Hendrik Mittrop <thatsmiddi@gmail.com>",
